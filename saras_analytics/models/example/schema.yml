@@ -1,0 +1,27 @@
+
+version: 2
+
+sources:
+  - name: saras_analytics
+    tables:
+      - name: snapshot_info
+      - name: warehouse_products
+      - name: products
+      - name: item_bins
+      - name: vendors
+
+models:
+  - name: product_info
+    description: "product_details"
+    columns:
+      - name: product_id
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+      - name: vendor_count
+        description: "Number of Vendors for this table"
+      - name: warehouse_products_count
+        description: "Number of Warehouse Products for this table"
+
+
