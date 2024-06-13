@@ -12,14 +12,13 @@ Python script to preprocess and load the file to BQ
 
 DBT codes for Staging
 
+#### How to use:
 
 Create a service account and give it biquery admin privilages in IAM of GCP.
 
 Create a key and rename it as "bigquery_key.json"
 
 Change your project name in bigquery-cleaning-challenge\saras_analytics\.dbt\profiles.yml
-
-#### How to use:
 
 I'm adding a video to show how to work with the code below (Short loom video)
 
