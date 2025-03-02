@@ -22,4 +22,4 @@ Change your project name in bigquery-cleaning-challenge\saras_analytics\.dbt\pro
 
 I'm adding a video to show how to work with the code below (Short loom video)
 
-https://www.loom.com/share/8ab189e43942412592c550e39b454068?sid=2d2c2dcb-9cdc-4f09-a443-d1f511a5adcd
+https://youtu.be/2H1FMEC4W7Q
